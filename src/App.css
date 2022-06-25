@@ -1,0 +1,28 @@
+.botones {
+  display: flex;
+  justify-content: center;
+}
+.disparar, .barco-a-la-vista {
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(255, 231, 231);
+  border: none;
+  border-radius: 5px;
+  color: rgb(103, 36, 36);
+}
+.disparar:hover, .barco-a-la-vista:hover {
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(255, 68, 68);
+  border: none;
+  border-radius: 5px;
+  color: rgb(255, 244, 244);
+}
+.disparar:active, .barco-a-la-vista:active {
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(255, 3, 3);
+  border: none;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+}

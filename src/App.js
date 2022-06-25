@@ -1,23 +1,14 @@
 import './App.css';
-
+import { Tablero } from './componentes/tablero';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src="" className="App-logo" alt="" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload. HOLAS
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Tablero />
+      <div className='botones'>
+        <button className='disparar'>Fuego</button>
+        <button className='barco-a-la-vista'>Mostrar barco</button>
+      </div>
+    </>
   );
 }
 
