@@ -8,7 +8,7 @@
 .tablero {
   width: 80%;
   margin: 20px auto;
-  background-color: rgba(217, 239, 237, 0.523);
+  /* background-color: rgba(217, 239, 237, 0.523); */
 }
 .header {
   display: flex;
@@ -25,6 +25,8 @@
   width: 80px;
   height: 80px;
   background-color: rgb(217, 239, 237);
+  border: 1px solid rgb(69, 99, 234);
+
 }
 .selda {
   text-align: center;
