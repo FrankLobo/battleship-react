@@ -1,6 +1,6 @@
-import './App.css';
+import './battleship.css';
 import { Tablero } from './componentes/tablero';
-function App() {
+function Battleship() {
   return (
     <>
       <Tablero />
@@ -12,4 +12,4 @@ function App() {
   );
 }
 
-export default App;
+export default Battleship;
